@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        nav {
+            background-color: #f39d9d;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        h1 {
+            color: #333;
+        }
+        p {
+            color: #666;
+        }
+        .image-grid {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+        }
+        .image-card {
+            margin: 10px;
+            transition: transform 0.3s ease-in-out;
+        }
+        .image-card img {
+            max-width: 100%;
+            height: auto;
+        }
+        .image-card:hover {
+            transform: scale(1.1);
+        }
+        @media (max-width: 600px) {
+            nav a {
+                display: block;
+                margin: 10px 0;
+            }
+            .image-grid {
+                flex-direction: column;
+            }
+        }
+    </style>
+    
+    
+</head>
+<nav>
+    <a href="../index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="contact.html">Contact</a>
+</nav>
+<body>
+ 
+    <main>
+        <h1>Welcome to portfolio</h1>
+        <p>LOL</p>
+        
+        <div class="image-grid">
+            <div class="image-card">
+              <img src="../image/image4.jpg">
+                
+        
+            </div>
+        </div>
+    </main>
+</body>
+</html>
